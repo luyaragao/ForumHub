@@ -118,7 +118,8 @@ api rest para um fórum de discussões, desenvolvida no challenge back-end da al
 ## 🔗 Links Úteis
 
 -   **Repositório no GitHub:** [ForumHub](https://github.com/luyaragao/forumhub.git)
--   **Documentação Interativa (Swagger):** [em breve!]()
+-   **Documentação Interativa (Swagger):** [Swwager](http://localhost:8080/swagger-ui/index.html#/)
+   ⚠️ Para acessar a documentação Interativa, execute o projeto primeiro e depois acesse o link do swagger, senão não vai funcionar.
 
 ---
 
