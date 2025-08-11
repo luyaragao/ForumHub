@@ -5,49 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fe46474-8e99-4298-b1fb-8a17b00625b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/controller/CursoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/controller/TopicoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/course/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/course/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/course/DadosDetalhamentoCurso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/topic/DadosAtualizacaoTopico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/topic/DadosCadastroTopico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/topic/DadosDetalhamentoTopico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/topic/DadosListagemTopico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/topic/Resposta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/topic/StatusTopico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/topic/Topico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/user/DadosAutenticacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/user/DadosCadastroUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/user/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/exception/TratadorDeErros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/exception/ValidacaoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/security/DadosTokenJWT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/security/SecurityConfigurations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/security/SecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/security/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/repository/CursoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/repository/TopicoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/service/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/service/TopicoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/resources/db/migration/V1__create-tables-usuarios-cursos-topicos.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/resources/db/migration/V2__create-table-respostas.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forumhub/src/main/resources/db/migration/V3__insert-initial-cursos.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forumhub/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/forumhub/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/controller/TopicController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/user/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/user/UserAuthenticationData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/domain/user/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/AuthenticationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/DataJWTToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/SecurityConfigurations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/SecurityFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/TokenService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forumhub/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forumhub/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/controller/CursoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/controller/CursoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/controller/TopicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/controller/TopicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/forumhub/src/main/java/com/api/forumhub/infra/security/SecurityConfigurations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

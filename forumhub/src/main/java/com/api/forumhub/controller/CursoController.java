@@ -3,6 +3,7 @@ package com.api.forumhub.controller;
 import com.api.forumhub.domain.course.Curso;
 import com.api.forumhub.domain.course.DadosDetalhamentoCurso;
 import com.api.forumhub.repository.CursoRepository;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
@@ -13,6 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/cursos")
+@SecurityRequirement(name = "bearer-key")
 public class CursoController {
 
     private final CursoRepository repository;
